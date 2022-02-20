@@ -1,0 +1,274 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    /*display: flex;*/
+    min-height: 100vh;
+    background-image: url("../Images/waterdrop.jpg");
+    flex-direction: column;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#form4 {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*Required validation class*/
+
+
+.errorMsg_ {
+    position: relative;
+    bottom: 134px;
+    left: 63px;
+    color: red;
+    padding: 4px;
+    font-size: 12px;
+    font-family: Calibri;
+}
+
+.accErrorMsg_ {
+    position: absolute;
+    bottom: 28px;
+    left: 129px;
+    color: red;
+    background-color: silver;
+    padding: 4px;
+    font-size: 12px;
+    font-family: Calibri;
+}
+
+.error {
+    position: relative;
+    top: -25px;
+    left: 172px;
+    color: red;
+    background-color: silver;
+    padding: 4px;
+    font-size: 12px;
+    font-family: Calibri;
+}
+
+.errorRef {
+    position: absolute;
+    top: 93px;
+    left: 303px;
+    color: red;
+    background-color: silver;
+    padding: 4px;
+    font-size: 12px;
+    font-family: Calibri;
+}
+
+header {
+    padding: 20px;
+    position: relative;
+    font-family: 'Segoe UI';
+    color: #172536;
+    font-size: 20px;
+    background-color: silver;
+    height: auto;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+}
+
+    header img {
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+        left: 15px;
+    }
+
+nav {
+    background-color: #33cc33;
+    height: 45px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+    font-family: 'Segoe UI';
+    color: white;
+    font-size: 16px;
+}
+
+
+
+article {
+    position: relative;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 670px; 
+    border-radius: 0px 0px 8px 0px;
+}
+
+.container {
+    width: 650px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.dropDownListTicket {
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    width: 100px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 27px;
+}
+
+.left {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+}
+
+.right {
+    overflow: hidden;
+}
+
+
+.st-box .input1{
+    color: #000;
+    margin-top: 3px;
+    margin-left: 27px;
+    padding: 10px;
+    opacity: 0.7;
+    width:280px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    border: 1px solid lightgray;
+}
+
+.st-box .inputDataBase {
+    color: #000;
+    margin-top: 3px;
+    margin-left: 28px;
+    padding: 10px;
+    opacity: 0.7;
+    width: 280px;
+    height: 130px;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    border: 1px solid lightgray;
+}
+
+.nd-box .input{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    width: 100px;
+    height: 25px;
+    margin-top:5px;
+}
+.container1{
+    width: 400px;
+    height: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.st-box .input{
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+    opacity: 0.7;
+    width: 90%;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    border: 1px solid lightgray;
+}
+
+.st-box {
+    float: left;
+    width: 650px;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    float: left;
+    width: 585px;
+    height: 175px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 35px;
+    margin-bottom: 14px;
+}
+
+.nd-box {
+    float: right;
+    width: 150px;
+    height: 120px;
+    margin-right: 80px;
+}
+
+
+footer {
+    /*padding: 10px;*/
+    background: yellowgreen;
+    height: 60px;
+    text-align: center;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    aside, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+td {
+    padding-top: 8px;
+    padding-right: 35px;
+}
+.groupPanel {
+    width: 340px;
+    height: 160px;
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.btnConfirm {
+    float: right;
+    width: 90px;
+    height: 45px;
+    margin-right: 50px;
+    margin-top: -56px;
+    background-color: #172536;
+    border-style: none;
+    color: white;
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    border-radius: 5px;
+}

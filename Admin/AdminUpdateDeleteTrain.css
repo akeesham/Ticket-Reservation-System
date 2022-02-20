@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*display: flex;*/
+    min-height: 100vh;
+    background-image: url("Icons_Images/waterdrop.jpg");
+    flex-direction: column;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.formClass {
+    width: 925px;
+    height: auto;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 680px;
+    height: 310px;
+    margin-left: 105px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+header {
+    padding: 20px;
+    position: relative;
+    font-family: Roboto;
+    color: #172536;
+    font-size: 20px;
+    background-color: silver;
+    height: auto;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+ 
+
+header img {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 15px;
+}
+
+
+.formClass{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+
+.article {
+    font-size: 15px;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 500px; 
+    border-radius: 0px 0px 5px 0px;
+}
+
+.article h2 {
+    text-align: center;
+    font-size: 18px;
+    font-family: calibri;
+    font-weight: 500;
+    margin-top: 25px;
+    color: #172536;
+}
+
+.article hr {
+    width: 40px;
+    height: 4px;
+    margin-top: 10px;
+    background-color: #17aa17;
+    border-color:  #17aa17;
+}
+
+.back p {
+    text-align : center;
+}
+ .back a {
+     color: blue
+ }
+
+ .back a:hover {
+     color:purple;
+ }
+
+.img {
+    width: auto;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    top: 25px;
+}
+

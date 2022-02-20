@@ -1,0 +1,163 @@
+body {
+    background-image: url("Icons_Images/waterdrop.jpg");
+    background-size: cover;
+    background-position-y: 50%;
+}
+  
+  .formClass {
+    background-color: white;
+    padding: 0px 0px 10px 0px;
+    margin-top: 90px;
+    width: 330px;
+    height: auto;
+    text-align: justify;
+    box-sizing: border-box;
+  }
+
+/*Required validation class*/
+
+.RequiredField {
+    position: absolute;
+    float: left;
+    margin-left: 282px;
+    z-index: 1;
+    margin-top: 13px;
+}
+
+.SuccessMsgAdmin {
+    position: relative;
+    top: -10px;
+    left: 111px;
+    color: green;
+    background-color: silver;
+    padding: 4px;
+    font-size: 12px;
+    font-family: Calibri;
+}
+
+.errorMsg_Admin {
+    position: relative;
+    top: -10px;
+    left: 107px;
+    color: red;
+    background-color: silver;
+    padding: 4px;
+    font-size: 12px;
+    font-family: Calibri;
+}
+
+.LoginLabelTop {
+    color: #172536;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+  
+  .loginLabelBlock {
+    background-color: silver;
+    height: 50px;
+    width: auto;
+    margin: 0px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;   
+  }
+  
+  .loginLabelBlock img {
+    float: left;
+    padding: 8px;
+    opacity: 0.6;
+    margin-left: 80px;
+  }
+  
+  .input {
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+    opacity: 0.7;
+    width: 75%;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    border: 1px solid grey;
+  }
+  
+  .CheckBox {
+    color: #000;
+    opacity: 0.7;
+    font-family: 'Segoe UI';
+    margin-left: 32px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .ChkShowPass {
+    color: black;
+    opacity: 1;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+  }
+  
+  .button, .input, .formClassSignUp, .formClass, .buttonAdmin, .buttonAdminLogin {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 5px;
+  }
+  
+  .button {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #33cc33;
+    opacity: 0.8;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #33cc33;
+    font-family: 'Segoe UI';
+    font-size:medium; 
+  }
+  
+  .button:hover {
+    opacity: 1;
+  }
+  
+  .buttonAdmin {
+    position: relative;
+    width: 330px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: silver;
+    color: #172536;
+    border-radius: 5px;
+    border: 1px solid silver;
+    font-family: 'Segoe UI';
+    font-size:medium;
+    font-weight: 400; 
+  }
+  
+  .signUpLabel a {
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  .signUpLabel {
+    color: grey;
+    font-weight: normal;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  
+  .signUpLabel a:hover {
+    color: purple;
+  }
+  
+  
+  
